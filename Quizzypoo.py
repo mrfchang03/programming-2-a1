@@ -33,6 +33,21 @@ if question_Five == "direction and magnitude" or question_Five == "magnitude and
         print("WOAHH, EINSTEINS ALIVE!")
         score += 1
 else:
-    print("Aiya, pay attention in Clements!)
+    print("Aiya, pay attention in Clements!")
 
 print(f"Your final score is {score / 5 * 100} %")
+
+if score == 5:
+    print("Wow! Good job! You really know your stuff!")
+
+elif score == 4:
+    print("Close! You almost aced it!")
+
+elif score == 3:
+    print("At least you didn't fail!")
+elif score == 2:
+    print("Oh, that's unfortunate. Take the test again!")
+elif score == 1:
+    print("Hey! You got one at least!")
+elif score == 0:
+    print("This quiz was stupid anyway")
